@@ -1,2 +1,2 @@
 # CloudNativeCourse
-Go Rocks!
+Golang programs from class
