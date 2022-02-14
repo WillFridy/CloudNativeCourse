@@ -1,0 +1,31 @@
+**** GO ROUTINES ****
+goroutines execute asynchronously and randomly
+The order of execution of gorountine functinos are random
+goroutines are run concurrently (parallel) so outputs may be intertwined
+
+
+**** CHANNEL ****
+channels connect concurrent gorountines
+You send values into channels from one goroutine are receive those values into another goroutine
+
+**** CHANNEL BUFFERING ****
+buffers are used to accept a limited amount of values without a receiver for those values
+
+**** CHANNEL SYNCHRONIZATION ****
+you can use channels to synchronize execution accross gorountines 
+<- done is used to block a receive while other gorountines are executing
+
+**** CHANNEL DIRECTIONS ****
+used to set channels to either receive or sned alues. Increases type-safety of the program
+
+**** SELECT ****
+Select allows you to wait for multiple channel operations
+
+**** INTRFACES ****
+GET - get the key that is mapped to a values
+Get(key) -> value, error - without error the value is nil
+Put(key, value)
+
+Maps and slices are data structures
+
+interfaces are structs
